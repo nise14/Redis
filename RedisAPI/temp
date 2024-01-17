@@ -1,0 +1,17 @@
+docker compose up -d
+docker compose stop
+docker compose down
+
+docker ps  //to get the container_id
+docker exec -it <container_id> /bin/bash
+
+--redis
+redis-cli
+ping
+set platform:10010 Docker
+get platform:10010
+
+set platform:10010 Redis
+
+del platform:10010
+exit
